@@ -37,22 +37,40 @@ Boarding House Rent Billing Management System, referred to as the BHouse Billing
 - **For Admin**: To manage boarders, payment, visitor payment, receipt and more.
 
 ## Screenshots
+
 - Welcome Page
-  ![Screenshot 2025-05-18 182909](https://github.com/user-attachments/assets/8180969a-78b9-49cb-a592-72da11487f11)
-- Login/Signup
-  ![Screenshot 2025-05-18 183148](https://github.com/user-attachments/assets/66875f41-b718-47cb-9abc-1ec87cdae71f)
+
+ ![Welcome](https://github.com/user-attachments/assets/32541ec1-dc66-4040-bc94-6645d19d53fc)
+
+- Login/Register
+  
+  ![login](https://github.com/user-attachments/assets/4f3c5f59-09c8-4531-8526-2abf51c06bdc)
+
+  ![register](https://github.com/user-attachments/assets/1aded0f5-bc7d-4eb8-8277-da7ed63942f3)
+
 - Dashboard
-  ![Screenshot 2025-05-18 183319](https://github.com/user-attachments/assets/7e8356b6-ac31-48fd-b076-3dcf40835fb3)
+
+  ![dashboard](https://github.com/user-attachments/assets/3887ef3e-79ee-447f-8194-8775992fd0b3)
+
 - Rent Payment
-  ![Screenshot 2025-05-18 183451](https://github.com/user-attachments/assets/e5829807-fabe-4437-b174-888c9bc580c5)
+
+  ![rent](https://github.com/user-attachments/assets/af6b9d7c-8e1d-4a76-846c-f64de9f297cf)
+
 - Receipt/Invoice
-  ![Screenshot 2025-05-18 183451](https://github.com/user-attachments/assets/9589d98f-7fc8-43d1-b854-4e7415cb7d91)
+
+  ![receipt](https://github.com/user-attachments/assets/47d84480-54d3-4e0b-bc63-70038f8cf61a)
+
 - Financial Report
-  ![Screenshot 2025-05-18 183331](https://github.com/user-attachments/assets/5342ea40-4542-449e-96a3-7b036f595a75)
+
+ ![financial](https://github.com/user-attachments/assets/bf0081dc-0b51-42de-bc3a-e93bff8ca1b7)
+
 - Boarders Profile
-  ![Screenshot 2025-05-18 183736](https://github.com/user-attachments/assets/a2252f8c-baec-4cef-8702-39e51765fb2d)
+
+  ![boarders](https://github.com/user-attachments/assets/06a7353b-0d78-4c74-a729-a1bf2af108f5)
+
 - Communication
-  ![Screenshot 2025-05-18 183805](https://github.com/user-attachments/assets/20bfcacb-8658-45c8-af1f-19611cd0fb65)
+
+  ![communication](https://github.com/user-attachments/assets/fd60a7f9-9b13-4b8d-9c01-613a636bf3b1)
 
 ## License
 
