@@ -1,0 +1,154 @@
+/* Sidebar Customizations */
+body{
+    font-family: 'Segoe UI', sans-serif;
+  
+  }
+  .sidebar {
+      width: 250px;
+      height: 100vh;
+      position: fixed;
+      background-color: #140517;
+    }
+  
+    .sidebar .nav-link {
+      font-size: 1rem;
+    }
+    
+    .sidebar .nav-link:hover {
+      background-color: #495057;
+      border-radius: 5px;
+    }
+  
+    .sidebar a {
+      display: flex;
+      align-items: center; 
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #ffffff; 
+      font-size: 16px;
+    }
+    
+    .sidebar a span.material-icons {
+      margin-right: 10px; 
+      font-size: 24px;
+    }
+  
+    .nav-link {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+      text-decoration: none;
+      color: #ffffff;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    
+    .nav-link:hover {
+      background-color: #495057; 
+      color: #ffffff;
+    }
+    
+    .nav-link.active {
+      background-color: #fd7e14; 
+      color: #ffffff;
+      border-radius: 5px;
+    }
+    
+    .nav-link.active:hover {
+      background-color: #fd7e14; 
+      color: #ffffff;
+    }
+    
+    
+    .flex-grow-1 {
+      margin-left: 250px;
+    }
+  
+    /* HEADER Customizations */
+    header{
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #360938;
+      color: #ffffff;
+  
+    }
+    
+    header input[type="text"] {
+      min-width: 200px;
+    }
+    
+    .position-relative .badge {
+      animation: pulse 1.5s infinite;
+    }
+  
+    .input-group .form-control {
+      width: 300px; 
+      background-color: #ffffff; 
+      color: #000000; 
+      border: 1px solid #ced4da;
+    }
+    
+    .input-group .form-control::placeholder {
+      color: #6c757d; 
+    }
+    
+    .input-group .btn {
+      background-color: #360938; 
+      color: white;
+      border: 1px solid #ced4da; 
+    }
+    
+    .input-group .btn:hover {
+      background-color: #fd7e14;
+      color: #ffffff; 
+    }
+  
+    .input-group .btn {
+      transition: background-color 0.3s, color 0.3s;
+    }
+  
+    .btn-outline-primary {
+      color: white; 
+      border: 1px solid #ced4da; 
+      transition: background-color 0.3s, color 0.3s;
+    }
+    
+    .btn-outline-primary:hover {
+      background-color: #fd7e14;
+      color: #ffffff; 
+      border: 1px solid #fd7e14;
+    }
+    
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+  }
+  
+  .admin-border {
+    border: 2px solid rgb(177, 169, 169);
+    border-radius: 8px;       
+    padding: 10px 20px;     
+  }
+  
+  /* Confirmation message styling */
+  .confirmation-message {
+    background-color: #4CAF50; /* Green background for success */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 16px;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  /* Show the confirmation message */
+  .confirmation-message.show {
+    opacity: 1;
+  }
+  
+  /*----------------------*/
