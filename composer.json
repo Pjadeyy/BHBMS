@@ -1,0 +1,20 @@
+{
+    "name": "bhbms/app",
+    "description": "Boarding House Management System",
+    "type": "project",
+    "require": {
+        "google/apiclient": "^2.15.0",
+        "google/apiclient-services": "^0.396.0",
+        "mpdf/mpdf": "^8.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Your Name"
+        }
+    ]
+}
