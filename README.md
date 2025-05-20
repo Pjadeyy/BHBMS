@@ -104,8 +104,12 @@ Boarding House Rent Billing Management System, referred to as the BHouse Billing
 
 Project_PRS 
 
+Project_PRS
+
 Backend Developer: https://github.com/Pjadeyy
+
 Frontend Developer: https://github.com/stephjx
+
 UI/UX Designer: https://github.com/rechaelantonettesalise
 
 ## License
