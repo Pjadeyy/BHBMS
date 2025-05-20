@@ -60,6 +60,7 @@ Boarding House Rent Billing Management System, referred to as the BHouse Billing
 - Import the provided SQL file. 
 - Browse the Boarding House Billing Management System in a browser. i.e.
   http://localhost/BHBMS/authentication/welcome.php
+  
 ## Usage
 - **For Admin**: To manage boarders, payment, visitor payment, receipt and more.
 
@@ -101,7 +102,7 @@ Boarding House Rent Billing Management System, referred to as the BHouse Billing
 
 ## Developers
 
-Project_PRS (https://github.com/Pjadeyy/BHBMS).
+Project_PRS https://github.com/Pjadeyy/BHBMS
 
 ## License
 
