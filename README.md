@@ -57,7 +57,7 @@ Boarding House Rent Billing Management System, referred to as the BHouse Billing
 - Copy the extracted source code folder and paste it into the XAMPP's "htdocs" directory.
 - Browse the PHPMyAdmin in a browser. i.e. http://localhost/phpmyadmin
 - Create a new database naming bh.
-- Import the provided SQL file. The file is known as bh.sql located inside the database folder.
+- Import the provided SQL file. 
 - Browse the Boarding House Billing Management System in a browser. i.e.
   http://localhost/BHBMS/authentication/welcome.php
 ## Usage
