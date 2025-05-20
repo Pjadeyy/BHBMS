@@ -51,7 +51,7 @@ Boarding House Rent Billing Management System, referred to as the BHouse Billing
 - Apache server (or any compatible server)
 - Composer (for dependency management)
 
-### Steps to Set Up Locally
+## Steps to Set Up Locally
 - Open your XAMPP Control Panel and start Apache and MySQL.
 - Extract the downloaded source code zip file.
 - Copy the extracted source code folder and paste it into the XAMPP's "htdocs" directory.
