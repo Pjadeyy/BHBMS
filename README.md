@@ -101,7 +101,7 @@ Boarding House Rent Billing Management System, referred to as the BHouse Billing
 
 ## Developers
 
-Project_PRS
+Project_PRS (https://github.com/Pjadeyy/BHBMS).
 
 ## License
 
