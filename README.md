@@ -17,7 +17,34 @@ Boarding House Rent Billing Management System, referred to as the BHouse Billing
 - **Communication**: Sends email notifications to boarders before their due date.
 
 ## Installation
+ 1. Clone the repository
 
+     ```
+      git clone https://github.com/prixane/BHBMS.git
+      cd BHBMS
+      ```
+ 2. Install dependencies:
+
+    ```
+      composer install
+      ```
+ 3. Create a .env file in the root directory with the following variables:
+
+     ```
+      DB_HOST=localhost
+      DB_USER=your_database_user
+      DB_PASS=your_database_password
+      DB_NAME=bh
+      
+      GOOGLE_CLIENT_ID=your_google_client_id
+      GOOGLE_CLIENT_SECRET=your_google_client_secret
+      GOOGLE_REDIRECT=http://localhost/BHBMS/GoogleAuth/google-callback.php
+      ```
+  4. Import the database schema
+      ```
+      mysql -u your_database_user -p your_database_name < bh.sql
+      ```
+     
 ## Prerequisites
 - PHP (>= 8.2.12)
 - MySQL 
