@@ -38,7 +38,7 @@ Boarding House Rent Billing Management System, referred to as the BHouse Billing
       
       GOOGLE_CLIENT_ID=your_google_client_id
       GOOGLE_CLIENT_SECRET=your_google_client_secret
-      GOOGLE_REDIRECT=http://localhost/BHBMS/GoogleAuth/google-callback.php
+      GOOGLE_REDIRECT=http://localhost/BHBMS/googleAuth/google-callback.php
       ```
   4. Import the database schema
       ```
