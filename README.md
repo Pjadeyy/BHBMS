@@ -40,7 +40,7 @@ Boarding House Rent Billing Management System, referred to as the BHouse Billing
 
 - Welcome Page
 
- ![Welcome](https://github.com/user-attachments/assets/32541ec1-dc66-4040-bc94-6645d19d53fc)
+  ![Welcome](https://github.com/user-attachments/assets/32541ec1-dc66-4040-bc94-6645d19d53fc)
 
 - Login/Register
   
@@ -62,7 +62,7 @@ Boarding House Rent Billing Management System, referred to as the BHouse Billing
 
 - Financial Report
 
- ![financial](https://github.com/user-attachments/assets/bf0081dc-0b51-42de-bc3a-e93bff8ca1b7)
+  ![financial](https://github.com/user-attachments/assets/bf0081dc-0b51-42de-bc3a-e93bff8ca1b7)
 
 - Boarders Profile
 
