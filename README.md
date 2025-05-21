@@ -15,6 +15,63 @@ Boarding House Rent Billing Management System, referred to as the BHouse Billing
 - **Receipt/Invoice**: Stores past/recent receipts and print to PDF.
 - **Financial Reports**: Stores and Exports monthly, yearly and visitors reports collection to PDF.
 - **Communication**: Sends email notifications to boarders before their due date.
+## Entity Relationship Diagram (ERD)
+
+This system is built to manage a boarding house’s operations. Below is the ERD (Entity Relationship Diagram) that describes how each database table is related:
+
+![ERD](./7599a43e-c5cb-41a8-83c8-29260cf14492.png)
+
+---
+
+## Table Descriptions
+
+### `users`
+Stores system admin information.
+- `firstname`, `lastname`, `email`, `contact`, `address`
+- `boardinghousename`, `password`, `reset_code`
+- `tin_num`, `government_id`
+
+### `boarders`
+Holds information about boarders.
+- Linked to `users` via `user_id`
+- Fields: `firstname`, `lastname`, `email`, `phone`, `address`, `room`, `move_in_date`, `monthly_rate`, `deposit_amount`, `appliances`, `status`
+
+### `payments`
+Tracks payments made by boarders.
+- Linked to `boarders` via `boarder_id`
+- Fields: `amount`, `payment_date`, `status`, `payment_type`, `mode_of_payment`, `appliances`, `days`
+
+### `rates`
+Defines billing rates and policies.
+- Linked to `users` via `user_id`
+- Fields: `monthly_rate`, `appliances_rate`, `late_fee`, `visitor_daily_rate`, `due_date`
+
+### `visitors`
+Logs visitors for each boarder.
+- Linked to `boarders` and `users`
+- Fields: `name`
+
+### `notifications`
+Stores notification messages for users.
+- Linked to `users` via `user_id`
+- Fields: `message`, `status (New/Read)`, `created_at`
+
+### `sent_emails`
+Tracks sent email records.
+- Linked to `users` and optionally to `boarders`
+- Fields: `subject`, `body`, `sent_at`
+
+### `settings`
+Stores system settings per user.
+- Fields: `email_notifications`, `sms_notifications`, `default_language`, `timezone`
+
+---
+
+## Relationships Overview
+
+- A **user** (admin) can manage many **boarders**, **rates**, **payments**, and **notifications**.
+- Each **boarder** can have multiple **payments** and **visitors**.
+- **Notifications**, **emails**, and **settings** are user-specific.
 
 ## Installation
  1. Clone the repository
