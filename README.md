@@ -19,7 +19,6 @@ Boarding House Rent Billing Management System, referred to as the BHouse Billing
 
 This system is built to manage a boarding house’s operations. Below is the ERD (Entity Relationship Diagram) that describes how each database table is related:
 
-![ERD](./7599a43e-c5cb-41a8-83c8-29260cf14492.png)
 ![DS](https://github.com/user-attachments/assets/1d26c01b-e7af-40b9-bcb6-0567f0193808)
 ---
 
