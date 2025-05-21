@@ -20,7 +20,7 @@ Boarding House Rent Billing Management System, referred to as the BHouse Billing
  1. Clone the repository
 
      ```
-      git clone https://github.com/prixane/BHBMS.git
+      git clone https://github.com/Pjadeyy/BHBMS.git
       cd BHBMS
       ```
  2. Install dependencies:
